@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauizAppUtn.NewPage1"
+             Title="Productos">
+    <ScrollView>
+        <StackLayout Padding="30,0" Spacing="25">
+            <Label>Id producto:</Label>
+            <Entry x:Name="txtIdProducto"></Entry>
+            <Label>Nombre producto:</Label>
+            <Entry x:Name="txtNombreProducto"></Entry>
+            <Label>Existencia:</Label>
+            <Entry x:Name="txtExistencia"></Entry>
+            <Label>Precio unitario:</Label>
+            <Entry x:Name="txtPrecioUnitario"></Entry>
+            <Label>IVA:</Label>
+            <Entry x:Name="txtIVA"></Entry>
+            <Label>Clasificacion:</Label>
+            <Picker x:Name="pickerClasificacion"></Picker>
+
+            <Button x:Name="cmdCreateProd" Text="INSERTAR" Clicked="cmdCreateProd_Clicked" BackgroundColor="#007BFF" TextColor="White" CornerRadius="10" HeightRequest="50" />
+            <Button x:Name="cmdReadProd" Text="LEER" Clicked="cmdReadProd_Clicked" BackgroundColor="#007BFF" TextColor="White" CornerRadius="10" HeightRequest="50" />
+            <Button x:Name="cmdUpdateProd" Text="ACTUALIZAR" Clicked="cmdUpdateProd_Clicked" BackgroundColor="#007BFF" TextColor="White" CornerRadius="10" HeightRequest="50" />
+            <Button x:Name="cmdDeleteProd" Text="BORRAR" Clicked="cmdDeleteProd_Clicked" BackgroundColor="#007BFF" TextColor="White" CornerRadius="10" HeightRequest="50" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

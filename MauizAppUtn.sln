@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauizAppUtn", "MauizAppUtn.csproj", "{45FC8421-88FE-43EF-BBEC-4466A52E37CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiConsumer", "..\ApiConsumer\ApiConsumer.csproj", "{E3216587-F24A-4E9D-A14B-6CF005971FCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45FC8421-88FE-43EF-BBEC-4466A52E37CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FC8421-88FE-43EF-BBEC-4466A52E37CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FC8421-88FE-43EF-BBEC-4466A52E37CD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{45FC8421-88FE-43EF-BBEC-4466A52E37CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FC8421-88FE-43EF-BBEC-4466A52E37CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45FC8421-88FE-43EF-BBEC-4466A52E37CD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E3216587-F24A-4E9D-A14B-6CF005971FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3216587-F24A-4E9D-A14B-6CF005971FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3216587-F24A-4E9D-A14B-6CF005971FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3216587-F24A-4E9D-A14B-6CF005971FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47142D4C-46D2-4B66-88A7-3552201E01D3}
+	EndGlobalSection
+EndGlobal

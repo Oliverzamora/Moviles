@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauizAppUtn.NewPage2"
+             Title="Clasificaciones">
+    <Grid BackgroundColor="#f8f9fa">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0" Padding="20" Spacing="20">
+            <Label Text="Id clasificación:" FontSize="18" />
+            <Entry x:Name="txtId" BackgroundColor="White" PlaceholderColor="#6c757d" TextColor="#495057" Placeholder="Ingrese el Id" />
+            <Label Text="Clasificación:" FontSize="18" />
+            <Entry x:Name="txtClasificacion" BackgroundColor="White" PlaceholderColor="#6c757d" TextColor="#495057" Placeholder="Ingrese la Clasificación" />
+            <Button x:Name="cmdCreate" Text="INSERTAR" Clicked="cmdCreate_Clicked" BackgroundColor="#007BFF" TextColor="White" CornerRadius="10" HeightRequest="50" />
+            <Button x:Name="cmdRead" Text="LEER" Clicked="cmdRead_Clicked" BackgroundColor="#007BFF" TextColor="White" CornerRadius="10" HeightRequest="50" />
+            <Button x:Name="cmdUpdate" Text="ACTUALIZAR" Clicked="cmdUpdate_Clicked" BackgroundColor="#007BFF" TextColor="White" CornerRadius="10" HeightRequest="50" />
+            <Button x:Name="cmdDelete" Text="BORRAR" Clicked="cmdDelete_Clicked" BackgroundColor="#007BFF" TextColor="White" CornerRadius="10" HeightRequest="50" />
+        </StackLayout>
+
+        <BoxView Grid.Row="1" BackgroundColor="#f8f9fa"/>
+    </Grid>
+</ContentPage>
