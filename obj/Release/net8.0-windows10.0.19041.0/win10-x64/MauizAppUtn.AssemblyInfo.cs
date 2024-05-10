@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MauizAppUtn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7bfa8bf1718a520ec86685b19bbb78db74e67db4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0091f699de9aac3d4ee22d61b69df1d87cf21eef")]
 [assembly: System.Reflection.AssemblyProductAttribute("MauizAppUtn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MauizAppUtn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
